@@ -22,7 +22,7 @@ spec:
       containers:
       - name: simple-flask
         # image: IMAGE_TAG
-        image: sudkul/simple-flask
+        image: rak3shn3gi/simple-flask
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
